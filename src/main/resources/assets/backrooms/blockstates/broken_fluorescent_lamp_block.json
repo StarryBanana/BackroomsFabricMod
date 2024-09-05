@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "backrooms:block/fluorescent_lamp_block" },
+    "lit=false": {
+      "model": "backrooms:block/ceiling_tile_block" }
+  }
+}
