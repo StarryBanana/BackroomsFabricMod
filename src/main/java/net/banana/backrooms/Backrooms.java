@@ -1,4 +1,4 @@
-package net.banana;
+package net.banana.backrooms;
 
 import net.fabricmc.api.ModInitializer;
 

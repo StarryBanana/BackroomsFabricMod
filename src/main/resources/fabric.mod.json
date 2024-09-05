@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.banana.Backrooms"
+			"net.banana.backrooms.Backrooms"
 		],
 		"client": [
-			"net.banana.BackroomsClient"
+			"net.banana.backrooms.BackroomsClient"
 		]
 	},
 	"mixins": [
