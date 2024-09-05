@@ -30,11 +30,11 @@ public class ModBlocks {
             ));
     public static final Block FLUORESCENT_LAMP_BLOCK = registerBlock("fluorescent_lamp_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.WHITE).sounds(BlockSoundGroup.FROGLIGHT).requiresTool()
-                    .noBlockBreakParticles().strength(-10f, 3600000.0f).luminance(state -> 10)
+                    .noBlockBreakParticles().strength(-10f, 3600000.0f).luminance(state -> 13)
             ));
     public static final Block BROKEN_FLUORESCENT_LAMP_BLOCK = registerBlock("broken_fluorescent_lamp_block",
             new BrokenFluorescentLight(AbstractBlock.Settings.create().mapColor(MapColor.WHITE).sounds(BlockSoundGroup.FROGLIGHT).requiresTool()
-                    .noBlockBreakParticles().strength(-10f, 3600000.0f).luminance(state -> state.get(BrokenFluorescentLight.LIT) ? 10 : 0)
+                    .noBlockBreakParticles().strength(-10f, 3600000.0f).luminance(state -> state.get(BrokenFluorescentLight.LIT) ? 13 : 0)
                     .ticksRandomly()
             ));
 
