@@ -1,5 +1,6 @@
 {
   "item.backrooms.wrench": "Wrench",
+  "item.backrooms.poker": "Poker",
 
   "block.backrooms.yellow_wallpaper_block": "Yellow Wallpaper Block",
   "block.backrooms.moist_carpet_block": "Moist Carpet Block",
@@ -8,6 +9,7 @@
   "block.backrooms.broken_fluorescent_lamp_block" : "Broken Fluorescent Lamp Block",
 
   "tooltip.backrooms.wrench_item.tooltip": "Fixes Fluorescent Lamps!",
+  "tooltip.backrooms.poker_item.tooltip": "Used to reach the Ceiling Tiles above!",
 
   "sounds.backrooms.fluorescent_buzz": "Fluorescent Buzz",
 

@@ -18,6 +18,9 @@
 		"main": [
 			"net.banana.backrooms.Backrooms"
 		],
+		"fabric-datagen": [
+			"net.banana.backrooms.BackroomsDataGenerator"
+		],
 		"client": [
 			"net.banana.backrooms.BackroomsClient"
 		]

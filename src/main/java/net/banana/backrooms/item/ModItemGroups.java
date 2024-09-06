@@ -32,6 +32,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.backrooms.backrooms_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.WRENCH);
+                        entries.add(ModItems.POKER);
                     }).build());
 
     public static void registerItemGroups() {
