@@ -18,6 +18,8 @@ public class ModItemGroups {
                     .displayName(Text.translatable("blockgroup.backrooms.backrooms_building_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.YELLOW_WALLPAPER_BLOCK);
+                        entries.add(ModBlocks.YELLOW_WALLPAPER_SLAB);
+                        entries.add(ModBlocks.YELLOW_WALLPAPER_WALL);
                         entries.add(ModBlocks.MOIST_CARPET_BLOCK);
                         entries.add(ModBlocks.CEILING_TILE_BLOCK);
                         entries.add(ModBlocks.FLUORESCENT_LAMP_BLOCK);

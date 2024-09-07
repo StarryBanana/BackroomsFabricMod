@@ -2,9 +2,7 @@ package net.banana.backrooms.block;
 
 import net.banana.backrooms.Backrooms;
 import net.banana.backrooms.block.custom.BrokenFluorescentLight;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.MapColor;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -17,6 +15,14 @@ public class ModBlocks {
     // Mod Blocks here
     public static final Block YELLOW_WALLPAPER_BLOCK = registerBlock("yellow_wallpaper_block",
             new Block(AbstractBlock.Settings.create().strength(-1.0F, 3600000.0F)
+                    .sounds(BlockSoundGroup.WOOL).mapColor(MapColor.YELLOW).requiresTool().noBlockBreakParticles()
+            ));
+    public static final Block YELLOW_WALLPAPER_SLAB = registerBlock("yellow_wallpaper_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(-1.0F, 3600000.0F)
+                    .sounds(BlockSoundGroup.WOOL).mapColor(MapColor.YELLOW).requiresTool().noBlockBreakParticles()
+            ));
+    public static final Block YELLOW_WALLPAPER_WALL = registerBlock("yellow_wallpaper_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(-1.0F, 3600000.0F)
                     .sounds(BlockSoundGroup.WOOL).mapColor(MapColor.YELLOW).requiresTool().noBlockBreakParticles()
             ));
     public static final Block MOIST_CARPET_BLOCK = registerBlock("moist_carpet_block",
